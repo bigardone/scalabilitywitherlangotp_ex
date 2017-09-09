@@ -1,5 +1,7 @@
 defmodule ScalabilitywitherlangotpEx.Ch3.Frequency do
-  @moduledoc nil
+  @moduledoc """
+  https://github.com/francescoc/scalabilitywitherlangotp/blob/master/ch3/frequency.erl
+  """
 
   @doc """
   Create the server
