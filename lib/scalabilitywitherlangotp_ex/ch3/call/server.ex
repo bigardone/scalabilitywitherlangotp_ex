@@ -1,5 +1,7 @@
 defmodule ScalabilitywitherlangotpEx.Ch3.Call.Server do
-  @moduledoc nil
+  @moduledoc """
+  https://github.com/francescoc/scalabilitywitherlangotp/blob/master/ch3/call/server.erl
+  """
 
   def start(name, args) do
     __MODULE__
