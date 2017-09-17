@@ -88,7 +88,7 @@ defmodule ScalabilitywitherlangotpEx.Ch4.Frequency do
   end
 
   defp deallocate({free, allocated}, res) do
-    new_allocated = List.keydelete(allocated, res, 1)
+    new_allocated = List.keydelete(allocated, res, 0)
 
     {[res | free], new_allocated}
   end

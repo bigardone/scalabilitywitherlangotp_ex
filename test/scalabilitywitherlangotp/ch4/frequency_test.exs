@@ -49,6 +49,7 @@ defmodule ScalabilitywitherlangotpEx.Ch4.FrequencyTest do
       {:ok, frequency} = Frequency.allocate()
 
       assert :ok = Frequency.deallocate(frequency)
+      assert {[10, 11, 12, 13, 14, 15], []} = :sys.get_state(:frequency)
 
       assert {:ok, ^frequency} = Frequency.allocate()
     end
