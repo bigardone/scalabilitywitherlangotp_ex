@@ -1,5 +1,5 @@
 defmodule ScalabilitywitherlangotpEx.Ch3.FrequencyTest do
-  use ExUnit.Case, async: true
+  use ExUnit.Case
 
   alias ScalabilitywitherlangotpEx.Ch3.Frequency
 

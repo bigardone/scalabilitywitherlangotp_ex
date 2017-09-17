@@ -1,5 +1,5 @@
 defmodule ScalabilitywitherlangotpEx.Ch3.Behavior.FrequencyText do
-  use ExUnit.Case, async: true
+  use ExUnit.Case
 
   alias ScalabilitywitherlangotpEx.Ch3.Behavior.Frequency
 
